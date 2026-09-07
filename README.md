@@ -12,7 +12,7 @@ Dokantra is a modern full-stack shop and business management platform designed t
 
 ## 🚀 Live Demo
 
-> 🔗 **Live demo:** _[https://dokantra-live.vercel.app](https://dokantra.vercel.app)_ 
+> 🔗 **Live demo:** _[https://dokantra.vercel.app](https://dokantra.vercel.app)_ 
 
 ---
 
