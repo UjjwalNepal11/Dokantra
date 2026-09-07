@@ -3,7 +3,6 @@
     "target": "ES2022",
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    "moduleResolution": "Node",
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
