@@ -18,4 +18,4 @@ Disallow: /notifications
 Disallow: /login
 Disallow: /register
 
-Sitemap: https://your-frontend.vercel.app/sitemap.xml
+Sitemap: https://dokantra.vercel.app/sitemap.xml
