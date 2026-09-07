@@ -46,6 +46,18 @@ export default function AppShell({ children, title }: AppShellProps) {
   }, [location.pathname, title])
 
   useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [mobileOpen])
+
+  useEffect(() => {
     const manager = getSessionStateManager({
       scrollContainer: window,
       debounceMs: 150,
