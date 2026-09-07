@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dokantra — Shop Management Software | Run Your Shop Smarter</title>
+    <meta name="description" content="Dokantra helps shops manage products, inventory, customers, sales, expenses, invoices, and business insights in one simple platform." />
+    <link rel="canonical" href="%VITE_PUBLIC_SITE_URL%/" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <meta property="og:site_name" content="Dokantra" />
+    <meta property="og:title" content="Dokantra — Run Your Shop Smarter." />
+    <meta property="og:description" content="Dokantra helps shops manage products, inventory, customers, sales, expenses, invoices, and business insights in one simple platform." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="%VITE_PUBLIC_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_PUBLIC_SITE_URL%/Dokantra.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dokantra — Run Your Shop Smarter." />
+    <meta name="twitter:description" content="Dokantra helps shops manage products, inventory, customers, sales, expenses, invoices, and business insights in one simple platform." />
+    <meta name="twitter:image" content="%VITE_PUBLIC_SITE_URL%/Dokantra.png" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Dokantra",
+      "description": "A simple shop and business management platform for managing products, inventory, customers, sales, expenses, invoices, and business insights in one place.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "url": "%VITE_PUBLIC_SITE_URL%"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Dokantra",
+      "description": "Dokantra helps shops manage products, inventory, customers, sales, expenses, invoices, and business insights in one simple platform.",
+      "url": "%VITE_PUBLIC_SITE_URL%"
+    }
+    </script>
+
+    <script>
+      ;(function () {
+        try {
+          var stored = localStorage.getItem('smartshop-theme')
+          var theme = 'light'
+          if (stored === 'light' || stored === 'dark') {
+            theme = stored
+          } else {
+            theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+          }
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

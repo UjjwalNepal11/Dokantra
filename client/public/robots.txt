@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+Disallow: /dashboard
+Disallow: /sales
+Disallow: /sales/new
+Disallow: /sales/
+Disallow: /products
+Disallow: /products/
+Disallow: /inventory
+Disallow: /customers
+Disallow: /customers/
+Disallow: /expenses
+Disallow: /expenses/
+Disallow: /categories
+Disallow: /settings
+Disallow: /notifications
+Disallow: /login
+Disallow: /register
+
+Sitemap: https://your-frontend.vercel.app/sitemap.xml

@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+.vite
+.cache
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+Thumbs.db
+server/.env
+client/.env
+.vercel
